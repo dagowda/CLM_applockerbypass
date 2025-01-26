@@ -1,4 +1,5 @@
 //c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /reference:"C:\windows\assembly\GAC_MSIL\System.Management.Automation\1.0.0.0__31bf3856ad364e35\System.Management.Automation.dll" c:\users\Administrator\Desktop\disamsi.cs
+//c:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\InstallUtil.exe /logfile= /LogToConsole=false /U disamsi.exe
 using System;
 using System.IO;
 using System.Collections.Generic;
