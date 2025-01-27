@@ -1,4 +1,12 @@
 # clm and applocker bypass
+# FOR Linux Compilation
+```bash
+sudo apt install mono-complete
+mcs -r:System.Configuration.Install.dll applocker2.cs
+```
+
+# For windows Compilation
+
 ```bash
 c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /reference:"C:\windows\assembly\GAC_MSIL\System.Management.Automation\1.0.0.0__31bf3856ad364e35\System.Management.Automation.dll" C:\users\dhanush\Desktop\bypassclm.cs
 C:\Users\dhanush\Desktop>c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe c:\users\dhanush\Desktop\program3.cs
